@@ -21,12 +21,61 @@ html {
 }
 
 main {
-  margin: 80px 0;
+  margin: 70px 0;
 }
 
 /* ------------------------- */
 /* other styles will be here */
 /* ------------------------- */
+.waves {
+  background-image: url("https://lh3.googleusercontent.com/proxy/MvJfI4iBrc4TC0bYrYiisBJjnyxjloQBSqaHrBpqbQCLZix-qEah7n0P22Jk7Sb_Lzjhzqt-G6zoAjRZTwsCejvI");
+  background-color: #ccc;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.content{
+  background-color: #efefef;
+}
+
+
+h1{
+  padding: 20px;
+  border-bottom: 1px solid black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #4aaaa5;
+  font-weight: bold;
+}
+
+/* Index */
+.wrap{
+  float: left;
+}
+
+.about{
+  padding: 20px;
+}
+
+.about-img{
+  margin-left: 20px;
+}
+
+/* Contact  */
+.contact{
+  padding-left: 20px;
+}
+
+.contact:last-child{
+  padding-bottom: 20px;
+}
+
+/* Portfolio  */
+.img-port{
+  padding: 20px;
+}
+
 
 .footer {
   height: 62px;
