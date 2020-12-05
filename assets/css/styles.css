@@ -85,3 +85,13 @@ h1{
   padding-top: 14px;
   color: #fff;
 }
+
+@media screen (max-width: 480px) {
+  .content{
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .image-port{
+    align-self: center;
+  }
+}
