@@ -28,7 +28,7 @@ main {
 /* other styles will be here */
 /* ------------------------- */
 .waves {
-  background-image: url("https://lh3.googleusercontent.com/proxy/MvJfI4iBrc4TC0bYrYiisBJjnyxjloQBSqaHrBpqbQCLZix-qEah7n0P22Jk7Sb_Lzjhzqt-G6zoAjRZTwsCejvI");
+  background-image: url("https://images.pexels.com/photos/220182/pexels-photo-220182.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   background-color: #ccc;
   background-size: cover;
   background-position: center;
@@ -76,6 +76,10 @@ h1{
   padding: 20px;
 }
 
+.img-port:last-child{
+  padding-bottom: 40px;
+}
+
 
 .footer {
   height: 62px;
@@ -86,12 +90,14 @@ h1{
   color: #fff;
 }
 
-@media screen (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .content{
     margin-right: 10px;
     margin-left: 10px;
   }
-  .image-port{
-    align-self: center;
+  .img-port{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
