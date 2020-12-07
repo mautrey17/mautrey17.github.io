@@ -28,7 +28,7 @@ main {
 /* other styles will be here */
 /* ------------------------- */
 .waves {
-  background-image: url("https://images.pexels.com/photos/220182/pexels-photo-220182.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("../brick.jpg");
   background-color: #ccc;
   background-size: cover;
   background-position: center;
