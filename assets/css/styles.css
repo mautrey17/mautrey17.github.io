@@ -24,9 +24,6 @@ main {
   margin: 70px 0;
 }
 
-/* ------------------------- */
-/* other styles will be here */
-/* ------------------------- */
 .waves {
   background-image: url("../images/brick.jpg");
   background-color: #ccc;
@@ -85,6 +82,13 @@ h1{
   padding-bottom: 40px;
 }
 
+.round{
+  border-radius: 5px;
+}
+
+.card{
+  background-color: #bbb;
+}
 
 .footer {
   height: 62px;
