@@ -39,4 +39,4 @@ Github: [mautrey17](https://github.com/mautrey17)
 
 Or you can email me at: mautrey17@gmail.com
 
-![alt text](public/employeeScreenshot.png)
+![alt text](public/images/portfolioScreenshot.png)
