@@ -5,11 +5,11 @@ import Footer from "./Footer"
 
 const portfolioInformation = [
     {
-        title: "Burger Devourer with ORM",
-        href: "https://github.com/mautrey17/burger",
-        src: "images/burger-screenshot.png",
-        description: "Full stack application with custom made ORM communicating with MySQL allowing users to create and devour burgers",
-        deploy: "https://burger-norm.herokuapp.com/"
+        title: "StreamFlow",
+        href: "https://github.com/imanid-code/streamflow",
+        src: "images/streamflow.png",
+        description: "Major Project: React project management application allowing users to create projects and tasks, along with customizable profiles and avatars",
+        deploy: "https://streamflowteam4.herokuapp.com/"
     },
     {
         title: "Laughs and Eats",
@@ -40,11 +40,11 @@ const portfolioInformation = [
         deploy: "https://unc-budget-tracker.herokuapp.com/"
     },
     {
-        title: "Workout Tracker",
-        href: "https://github.com/mautrey17/workout-tracker",
-        src: "images/workoutScreenshot.png",
-        description: "This web application lets you track daily workouts by a variety of factors. MongoDB is used as the database to store data.",
-        deploy: "https://workout-tracker-a.herokuapp.com/"
+        title: "Burger Devourer with ORM",
+        href: "https://github.com/mautrey17/burger",
+        src: "images/burger-screenshot.png",
+        description: "Full stack application with custom made ORM communicating with MySQL allowing users to create and devour burgers",
+        deploy: "https://burger-norm.herokuapp.com/"
     }
 ]
 
