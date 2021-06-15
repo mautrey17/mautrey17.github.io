@@ -1,0 +1,54 @@
+.aboutBlock{
+    background-color: #81B29A;
+    height: auto;
+    min-height: 100vh;
+    
+}
+
+.relative{
+    position: relative;
+}
+
+.vert{
+    margin-top: 10rem;
+    /* margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); */
+}
+
+.test{
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.skills{
+    background-color: #E07A5F;
+    min-height: 100vh;
+}
+
+.contactEnd{
+    background-color: #3D405B;
+    min-height: 100vh;
+}
+
+.topic{
+    padding: 20px;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+
+.round{
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 480px) {
+
+    .aboutBlock{
+      min-height: 180vh;
+    }
+  }

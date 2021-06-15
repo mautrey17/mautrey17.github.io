@@ -1,9 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import Nav from "./components/Nav";
-import Footer from "./components/Footer";
-import PorfolioContent from './components/PortfolioContent';
-// import background from "./css/brick.jpg";
+import './App.scss';
 import PageContainer from "./components/PageContainer";
 
 function App() {

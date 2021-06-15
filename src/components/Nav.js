@@ -4,9 +4,9 @@ import "../css/Styles.css";
 function Nav(props) {
     return (
         <div>
-            <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar fixed-top navbar-expand-lg navbar-light " style={{backgroundColor: '#F4F1DE'}}>
 
-                {/* <div className="container"> */}
+                <div className="container">
 
                     <a 
                         className={`navbar-brand logo`} 
@@ -38,7 +38,7 @@ function Nav(props) {
                         </div>
                     </div>
 
-                {/* </div> */}
+                </div>
 
             </nav>
         </div>

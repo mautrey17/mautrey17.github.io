@@ -4,7 +4,7 @@ import "../css/Styles.css";
 function Footer() {
     return (
         <div>
-            <footer class="footer fixed-bottom">
+            <footer class="footer">
                 <p class="text-center">&copy; Copyright Matt Autrey</p>
             </footer>
         </div>

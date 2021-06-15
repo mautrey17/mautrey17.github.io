@@ -6,7 +6,7 @@ import Footer from "./Footer"
 const portfolioInformation = [
     {
         title: "StreamFlow",
-        href: "https://github.com/imanid-code/streamflow",
+        href: "https://github.com/mautrey17/streamflow",
         src: "images/streamflow.png",
         description: "Major Project: React project management application allowing users to create projects and tasks, along with customizable profiles and avatars",
         deploy: "https://streamflowteam4.herokuapp.com/"
