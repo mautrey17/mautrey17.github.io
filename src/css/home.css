@@ -46,9 +46,29 @@
     border-radius: 30px;
 }
 
+.round-dark{
+    border-radius: 20px;
+    background-color: #ccc;
+    height: 100%;
+    margin-right: 15px;
+}
+
+.remove{
+    color: #212529;
+}
+
+.no-underline{
+    text-decoration: none;
+}
+
 @media screen and (max-width: 480px) {
 
     .aboutBlock{
       min-height: 180vh;
+    }
+    .round-dark{
+        width: 55%;
+        margin: auto;
+        
     }
   }
