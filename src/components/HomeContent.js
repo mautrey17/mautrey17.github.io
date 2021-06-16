@@ -57,8 +57,8 @@ function HomeContent() {
                           </div>
                         <div className="col-md-8 col-lg-6">
                             <div className="">
-                                <div className="content round mb-4">
-                                    <h2 style={{color: '#E07A5F'}} className="topic">Current mastery:</h2>
+                                <div className="content round mb-4 p-4">
+                                    <h2 style={{color: '#E07A5F'}} className="topic">Current Mastery:</h2>
                                 <p  class="">
                                     I am prepared to take on a variety of coding challenges involving every aspect from the front-end to the back-end of a webb application
                                 </p>
@@ -66,11 +66,11 @@ function HomeContent() {
                                     <li>Front End: HTML, CSS, Bootstrap, Bulma, JavaScript, JQuery</li>
                                     <li>Back End: Node.js, MySQL, Sequelize, MongoDB, Mongoose</li>
                                     <li>Frameworks: React, Handlebars</li>
-                                    <li>Helpful Tools: Webpack, Jest</li>
+                                    <li>Helpful Tools: Webpack, Jest, Git</li>
                                 </ul>
                                 </div>
-                                <div className="content round">
-                                    <h2 style={{color: '#E07A5F'}} className="topic">In the works:</h2>
+                                <div className="content round p-4">
+                                    <h2 style={{color: '#E07A5F'}} className="topic">In the Works:</h2>
                                 
                                 <ul className="text-left">
                                     <li>Tailwind CSS</li>
@@ -89,10 +89,10 @@ function HomeContent() {
                   <div className="container">
                       <div className="row test">
                           
-                        <div className="col-md-8 col-lg-6">
+                        <div className="col-md-8">
                             <div className="">
-                                <div className="content round mb-4">
-                                    <h2 style={{color: '#3D405B'}} className="topic">Thank you for stopping by</h2>
+                                <div className="content round mb-4 p-4">
+                                    <h2 style={{color: '#3D405B'}} className="topic">Thank you for stopping by!</h2>
                                     <p class="mt-4 about">
                 In the meantime you can find me at{" "}
                 <a href="https://github.com/mautrey17">Github</a>,{" "}
@@ -107,6 +107,8 @@ function HomeContent() {
               </p>
               <p className="pb-3">Looking
                 forward to hearing from you soon!</p>
+
+                
                                 
                                 </div>
                                 
