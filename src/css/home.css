@@ -71,4 +71,7 @@
         margin: auto;
         
     }
+    .contactEnd{
+        min-height: 130vh;
+    }
   }

@@ -2,6 +2,8 @@ import React from "react";
 import "../css/Styles.css";
 import "../css/home.css";
 import Footer from "./Footer";
+import Fade from "react-reveal/Fade";
+import Zoom from "react-reveal/Zoom"
 
 function HomeContent() {
   return (
@@ -11,6 +13,7 @@ function HomeContent() {
           <div class="row">
             <div className="col-lg-6 col-md-8  col-sm-12 test">
               <div>
+                  <Zoom top>
                 <div className="round content p-3 ">
                   <h1>About Me</h1>
                   <span class="about-img">
@@ -46,6 +49,7 @@ function HomeContent() {
                     educator.
                   </p>
                 </div>
+                </Zoom>
               </div>
             </div>
           </div>
@@ -59,6 +63,7 @@ function HomeContent() {
             </div>
             <div className="col-md-8 col-lg-6">
               <div className="">
+                  <Fade right>
                 <div className="content round mb-4 p-4">
                   <h2 style={{ color: "#E07A5F" }} className="topic">
                     Current Mastery:
@@ -79,6 +84,8 @@ function HomeContent() {
                     <li>Helpful Tools: Webpack, Jest, Git</li>
                   </ul>
                 </div>
+                </Fade>
+                <Fade left>
                 <div className="content round p-4">
                   <h2 style={{ color: "#E07A5F" }} className="topic">
                     In the Works:
@@ -90,7 +97,9 @@ function HomeContent() {
                     <li>TypeScript</li>
                   </ul>
                 </div>
+                </Fade>
               </div>
+              
             </div>
           </div>
         </div>
@@ -101,6 +110,7 @@ function HomeContent() {
           <div className="row test">
             <div className="col-md-9">
               <div className="">
+                  <Fade bottom>
                 <div className="content round mb-4 p-4">
                   <h2 style={{ color: "#3D405B" }} className="topic">
                     Thank you for stopping by!
@@ -173,6 +183,7 @@ function HomeContent() {
                     Looking forward to hearing from you soon!
                   </p>
                 </div>
+                </Fade>
               </div>
             </div>
           </div>
