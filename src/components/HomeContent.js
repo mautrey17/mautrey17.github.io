@@ -11,7 +11,7 @@ function HomeContent() {
     <div>
       <section className="mt-3 pb-5 aboutBlock relative">
         <div class="container">
-          <div class="row">
+          <div class="row justify-content-md-center">
             <div className="col-lg-6 col-md-8  col-sm-12 test">
               <div>
                 <Zoom top>
