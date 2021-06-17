@@ -1,7 +1,8 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import "../css/Styles.css";
-import Footer from "./Footer"
+import "../css/portfolio.css";
+import Footer from "./Footer";
 
 const portfolioInformation = [
     {
@@ -13,14 +14,14 @@ const portfolioInformation = [
     },
     {
         title: "Laughs and Eats",
-        href: "https://github.com/kcrammer/Laughs-and-Eats",
+        href: "https://github.com/mautrey17/Laughs-and-Eats",
         src: "images/project1.png",
         description: "First Major Project: Search for desired restaurants and jokes to plan the perfect date. JQuery and various API's",
         deploy: "https://kcrammer.github.io/Laughs-and-Eats/"
     },
     {
         title: "Dumbbells for Dummies",
-        href: "https://github.com/katemilano/project2",
+        href: "https://github.com/mautrey17/dumbbells-for-dummies",
         src: "images/project2.png",
         description: "Second major group project that allows users to create a profile and discover/save new workouts from a MySQL database",
         deploy: "https://project2-starter-auth.herokuapp.com/"
@@ -48,9 +49,24 @@ const portfolioInformation = [
     }
 ]
 
+//old image style={{backgroundImage: `url(/images/brick.jpg)`}}
+
 function PortfolioContent() {
     return(
-        <div style={{backgroundImage: `url(/images/brick.jpg)`}}>
+        <div style={{backgroundColor: '#fff'}}>
+            <div className="top-image relative" style={{backgroundImage: `url(/images/brick.jpg)`}}>
+                <div className="container">
+                {/* <div className="row"> */}
+                    {/* <div className="col-4-md"></div> */}
+                    {/* <div className="col-4-md"> */}
+                    <div style={{position: 'absolute'}} className="try content round text-center p-3">
+                    <h2 className="title">What am I building?</h2>
+                </div>
+                    {/* </div> */}
+                {/* </div> */}
+                </div>
+                
+            </div>
             <div className="container">
         <section className="row mt-5 mb-5">
             <div className="col-lg-8 col-md-8 col-xs-12 content mt-5 mb-5 round">

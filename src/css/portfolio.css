@@ -1,0 +1,33 @@
+
+.title{
+    color: #81B29A;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.relative{
+    position: relative;
+}
+
+.try{
+    margin-top: 10%;
+    margin-left: 15%;
+    background-color: #F4F1DE;
+}
+
+.top-image{
+    height: 40vh;
+}
+
+@media screen and (max-width: 480px) {
+
+    .top-image{
+        height: 60vh;
+    }
+    .try{
+        margin-top: 25%;
+        margin-left: 10%;
+    }
+    
+  }
