@@ -61,6 +61,13 @@
     text-decoration: none;
 }
 
+.logoImg{
+    width: 100%;
+}
+.bottom-logo{
+    margin-top: 5rem;
+}
+
 @media screen and (max-width: 480px) {
 
     .aboutBlock{
@@ -73,5 +80,16 @@
     }
     .contactEnd{
         min-height: 130vh;
+    }
+
+    .skills{
+        min-height: 180vh;
+    }
+    .logoImg{
+        width: 40%;
+        margin-bottom: 10px;
+    }
+    .bottom-logo{
+        margin-top: 0px;
     }
   }
