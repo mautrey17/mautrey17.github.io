@@ -62,25 +62,36 @@ function HomeContent() {
             <div className="col-md-4 col-lg-4">
               {/* <div style={{ color: "#E07A5F" }}>this will block out</div> */}
               <div className="row mt-5">
-                  <Flip top>
+                <Flip top>
                   <div className="col-sm-4">
-                <img className="logoImg" src="../images/javascript.png" alt="javascript logo"></img>
-                </div>
+                    <img
+                      className="logoImg"
+                      src="../images/javascript.png"
+                      alt="javascript logo"
+                    ></img>
+                  </div>
                 </Flip>
                 <div className="col-sm-2"></div>
                 <Flip top>
-                <div className="col-sm-4">
-                <img className="logoImg" src="/images/react.jpg" alt="react logo"></img>
-                </div>
+                  <div className="col-sm-4">
+                    <img
+                      className="logoImg"
+                      src="/images/react.jpg"
+                      alt="react logo"
+                    ></img>
+                  </div>
                 </Flip>
-                
               </div>
               <div className="row bottom-logo">
-                  <div className="col-sm-3"></div>
-                    <Flip top>
+                <div className="col-sm-3"></div>
+                <Flip top>
                   <div className="col-sm-4">
-                <img className="logoImg" src="../images/mysqlLogo.jpg" alt="javascript logo"></img>
-                </div>
+                    <img
+                      className="logoImg"
+                      src="../images/mysqlLogo.jpg"
+                      alt="javascript logo"
+                    ></img>
+                  </div>
                 </Flip>
               </div>
             </div>
