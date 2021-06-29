@@ -7,7 +7,7 @@ function ProjectComponent(props) {
     return (
         <div className="mt-5  row justify-content-center">
             <Bounce left>
-            <div className="col line">
+            <div className="col-md line">
                     <a href={props.deploy} target="_blank" rel="noreferrer"><img src={props.src}className="card-img-top" alt="..."></img></a>
                     </div>
                     </Bounce>

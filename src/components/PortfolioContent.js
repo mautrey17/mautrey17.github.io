@@ -1,4 +1,4 @@
-import React from "react";
+import {React, useEffect} from "react";
 import ProjectCard from "./ProjectCard";
 import ProjectComponent from "./ProjectComponent";
 import ProjectComponentAlt from "./ProjectComponentAlt";
@@ -51,9 +51,29 @@ const portfolioInformation = [
     }
 ]
 
+
+
+
+
+
+
 //old image style={{backgroundImage: `url(/images/brick.jpg)`}}
+let view = true;
 
 function PortfolioContent() {
+    // useEffect(() => {
+    //     view = false;
+    //     // function checkView(x) {
+    //     //     if (x.matches) { // If media query matches
+    //     //       view = false;
+              
+    //     //     } 
+    //     //   }
+          
+    //     //   var x = window.matchMedia("(max-width: 480px)")
+    //     //   checkView(x) // Call listener function at run time
+    //     //   x.addListener(checkView) // Attach listener function on state changes
+    // }, [window.matchMedia("(max-width: 480px)"])
     return(
         <div style={{backgroundColor: '#fff'}}>
             <div className="row align-items-center top-image" style={{backgroundImage: `url(/images/brick.jpg)`}}>
@@ -76,135 +96,38 @@ function PortfolioContent() {
            
 
             <div className="container">
-                {/* <div className="row justify-content-md-center"> */}
+                
 
-                <ProjectComponent
-                    description={portfolioInformation[0].description}
-                        title={portfolioInformation[0].title}
-                        href={portfolioInformation[0].href}
-                        src={portfolioInformation[0].src}
-                        deploy={portfolioInformation[0].deploy}
+                {portfolioInformation.map((project, index) => (
+                    index % 2 === 0 ? 
+                        <ProjectComponent
+                        key={index}
+                        description={project.description}
+                        title={project.title}
+                        href={project.href}
+                        src={project.src}
+                        deploy={project.deploy}
                         >
-                </ProjectComponent>
 
-                <ProjectComponentAlt
-                    description={portfolioInformation[1].description}
-                    title={portfolioInformation[1].title}
-                    href={portfolioInformation[1].href}
-                    src={portfolioInformation[1].src}
-                    deploy={portfolioInformation[1].deploy}
-                >
+                        </ProjectComponent>
+                        :
+                        <ProjectComponentAlt
+                        description={project.description}
+                        title={project.title}
+                        href={project.href}
+                        src={project.src}
+                        deploy={project.deploy}
+                        >
 
-                </ProjectComponentAlt>
-                <ProjectComponent
-                    description={portfolioInformation[2].description}
-                        title={portfolioInformation[2].title}
-                        href={portfolioInformation[2].href}
-                        src={portfolioInformation[2].src}
-                        deploy={portfolioInformation[2].deploy}
-                        >
-                </ProjectComponent>
-                <ProjectComponentAlt
-                    description={portfolioInformation[3].description}
-                        title={portfolioInformation[3].title}
-                        href={portfolioInformation[3].href}
-                        src={portfolioInformation[3].src}
-                        deploy={portfolioInformation[3].deploy}
-                        >
-                </ProjectComponentAlt>
-                <ProjectComponent
-                    description={portfolioInformation[4].description}
-                        title={portfolioInformation[4].title}
-                        href={portfolioInformation[4].href}
-                        src={portfolioInformation[4].src}
-                        deploy={portfolioInformation[4].deploy}
-                        >
-                </ProjectComponent>
-                <ProjectComponentAlt
-                    description={portfolioInformation[5].description}
-                        title={portfolioInformation[5].title}
-                        href={portfolioInformation[5].href}
-                        src={portfolioInformation[5].src}
-                        deploy={portfolioInformation[5].deploy}
-                        >
-                </ProjectComponentAlt>
+                        </ProjectComponentAlt>
+                ))}
 
-            {/* <div className="col">
-                    <a href={portfolioInformation[0].deploy} target="_blank" rel="noreferrer"><img src={portfolioInformation[0].src}className="card-img-top" alt="..."></img></a>
-                    </div>
-                    <div className="col">
-                        <h1>{portfolioInformation[0].title}</h1>
-                        <p>{portfolioInformation[0].description}</p>
-                        <div>
-                            <a className="mr-3" href={portfolioInformation[0].href} target="_blank" rel="noreferrer"><i class="fab fa-github fa-3x"></i></a>
-                            <a href={portfolioInformation[0].deploy}><i class="fas fa-external-link-alt fa-3x"></i></a>
-                            </div>
-                    </div> */}
+                
 
 
 
                     </div>
-            {/* </div> */}
-
-
-            {/* <div className="container">
-        <section className="row mt-3 mb-5 justify-content-md-center">
-            <div className="col-lg-8 col-md-8 col-xs-12 content mt-5 mb-5 round">
-                <h1>Portfolio</h1>
-                <div className="row justify-content-center">
-                    <ProjectCard 
-                        description={portfolioInformation[0].description}
-                        title={portfolioInformation[0].title}
-                        href={portfolioInformation[0].href}
-                        src={portfolioInformation[0].src}
-                        deploy={portfolioInformation[0].deploy}
-                    />
-
-                    
-
-                    <ProjectCard 
-                        description={portfolioInformation[1].description}
-                        title={portfolioInformation[1].title}
-                        href={portfolioInformation[1].href}
-                        src={portfolioInformation[1].src}
-                        deploy={portfolioInformation[1].deploy}
-                    />
-                </div>
-                <div className="row">
-                    <ProjectCard 
-                        description={portfolioInformation[2].description}
-                        title={portfolioInformation[2].title}
-                        href={portfolioInformation[2].href}
-                        src={portfolioInformation[2].src}
-                        deploy={portfolioInformation[2].deploy}
-                    />
-                    <ProjectCard 
-                        description={portfolioInformation[3].description}
-                        title={portfolioInformation[3].title}
-                        href={portfolioInformation[3].href}
-                        src={portfolioInformation[3].src}
-                        deploy={portfolioInformation[3].deploy}
-                    />
-                </div>
-                <div className="row mb-5">
-                    <ProjectCard 
-                        description={portfolioInformation[4].description}
-                        title={portfolioInformation[4].title}
-                        href={portfolioInformation[4].href}
-                        src={portfolioInformation[4].src}
-                        deploy={portfolioInformation[4].deploy}
-                    />
-                    <ProjectCard 
-                        description={portfolioInformation[5].description}
-                        title={portfolioInformation[5].title}
-                        href={portfolioInformation[5].href}
-                        src={portfolioInformation[5].src}
-                        deploy={portfolioInformation[5].deploy}
-                    />
-                </div>
-            </div>
-        </section>
-        </div> */}
+           
         < Footer />
         </div>
     )

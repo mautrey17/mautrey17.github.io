@@ -8,7 +8,7 @@ function ProjectComponentAlt(props) {
         <div className="mt-5  row justify-content-center">
             
                     <Bounce left>
-                    <div className="col mr-3">
+                    <div className="col-md mr-3">
                         <h1>{props.title}</h1>
                         <p>{props.description}</p>
                         <div>
