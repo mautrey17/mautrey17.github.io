@@ -99,6 +99,14 @@ body {
     padding-top: 14px;
     color: #efefef;
   }
+
+  /* .line{
+    min-height: 25%;
+  }
+
+  .card-image-top{
+    height: 100%;
+  } */
   
   @media screen and (max-width: 990px) {
     .about-img{

@@ -11,13 +11,25 @@
 }
 
 .try{
-    margin-top: 10%;
-    margin-left: 15%;
+    /* margin-top: 10%;
+    margin-left: 15%; */
     background-color: #F4F1DE;
 }
 
 .top-image{
     height: 40vh;
+}
+
+.card-img-top{
+    width: 100%;
+}
+
+.line{
+    height: 50vh;
+}
+
+.holder{
+    padding: 50px;
 }
 
 @media screen and (max-width: 480px) {
