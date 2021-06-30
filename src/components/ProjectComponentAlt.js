@@ -11,6 +11,8 @@ function ProjectComponentAlt(props) {
                     <div className="col-md mr-3">
                         <h1>{props.title}</h1>
                         <p>{props.description}</p>
+                        <p>Technologies Used: {props.technologies}</p>
+                        <p>Lessons Learned: {props.lesson}</p>
                         <div>
                             <a className="mr-3" href={props.href} target="_blank" rel="noreferrer"><i class="fab fa-github fa-3x"></i></a>
                             <a href={props.deploy}><i class="fas fa-external-link-alt fa-3x"></i></a>
