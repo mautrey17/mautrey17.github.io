@@ -113,7 +113,7 @@ function HomeContent() {
                         JQuery
                       </li>
                       <li>
-                        Back End: Node.js, MySQL, Sequelize, MongoDB, Mongoose
+                        Back End: Node.js, MySQL, Sequelize, MongoDB, Mongoose, Express.js
                       </li>
                       <li>Frameworks: React, Handlebars</li>
                       <li>Helpful Tools: Webpack, Jest, Git</li>

@@ -21,7 +21,8 @@ function Nav(props) {
                     </button>
 
                     <div className="collapse navbar-collapse" id="navbar">
-                        <div className="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
+                            <li className="nav-item">
                         <a 
                             className={props.currentPage ==="Home" ? "nav-link active" : "nav-link"} 
                             href="#home"
@@ -29,13 +30,16 @@ function Nav(props) {
                         >
                             Home
                         </a>
+                        </li>
+                        <li className="nav-item">
                         <a 
                             className={props.currentPage ==="Portfolio" ? "nav-link active" : "nav-link"} href="#portfolio"
                             onClick={() => props.handlePageChange("Portfolio")}
                         >
                             Portfolio 
                         </a>
-                        </div>
+                        </li>
+                        </ul>
                     </div>
 
                 </div>
